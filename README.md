@@ -2,7 +2,7 @@
 
 A beginner web project that creates a simple survey form using HTML.
 The form collects user information and demonstrates how basic HTML form elements work.
-This project is perfect for learning how to build and structure forms on a webpage.
+This project is perfect for learning how to build and structure forms on a web page.
 
 ## 🎯 Project Goals
 
