@@ -63,16 +63,8 @@ h1 {
   font-size: 1rem;
   border: 1.8px solid #d0d0e0;
   border-radius: 12px;
-  background-color: #d0d0f8;
-  transition: border 0.15s, box-shadow 0.15s;
+  background-color: #9fabf0;
   font-family: inherit;
-}
-
-.flabel:focus {
-  border-color: #0a0a23;
-  box-shadow: 0 0 0 3px rgb(10 10 35 / 15%);
-  outline: none;
-  background-color: #fff;
 }
 
 textarea.flabel {
@@ -110,14 +102,14 @@ textarea.flabel {
   display: flex;
   align-items: center;
   font-weight: 400;
-  color: #1b1b32;
+  color: #060618;
   cursor: pointer;
 }
 
 .checkenter {
   margin-right: 0.6rem;
   transform: scale(1.1);
-  accent-color: #0a0a23;
+  accent-color: #1c3dce;
 }
 
 .submit-btn {
