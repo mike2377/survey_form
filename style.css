@@ -5,84 +5,80 @@
 }
 
 body {
-  background-image: linear-gradient(rgb(27 27 27 / 70%), rgb(42 42 64 / 80%)), url("./assets/images/download.jpeg");
+  background-image: linear-gradient(rgb(58 58 158 / 80%), rgb(136 136 206 / 70%)), url("./assets/images/survey-form-background.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  padding: 2rem 1rem;
 }
 
 .form-contain {
-  max-width: 720px;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 20rem 5rem 20rem;
 }
 
+
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 700;
-  color: #0606be;
+  color: white;
   margin-bottom: 0.4rem;
-  border-left: 7px solid #0606be;
-  padding-left: 2.5rem;
+  padding-left: 3rem;
 }
 
 .secondtitle {
   font-size: 1.1rem;
-  color: #59596d;
+  color: whitesmoke;
   margin-bottom: 2.2rem;
   font-style: italic;
-  padding-left: 2.2rem;
+  padding-left: 2rem;
 }
 
 .survey {
-  background-color: rgb(255 255 255 / 40%);
-  border-radius: 24px;
-  padding: 2.5rem 2.8rem;
+  background-color: #1b1c31;
+  padding: 1.5rem 1.5rem;
 }
 
 .form-group {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .flabel {
   display: block;
   font-weight: 600;
-  color: #1b1b32;
-  margin-bottom: 0.5rem;
+  color: white;
+  margin-bottom: 0.3rem;
   font-size: 1rem;
 }
 
 .fenter {
   width: 100%;
-  padding: 0.85rem 1rem;
+  padding: 0.3rem 0.80rem;
   font-size: 1rem;
-  border: 1.8px solid #d0d0e0;
-  border-radius: 12px;
-  background-color: #9fabf0;
+  border: 1.8px solid white;
+  background-color: white;
 }
 
 textarea.flabel {
-  min-height: 120px;
+  min-height: 100px;
 }
 
 .rgroup {
-  margin-top: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .rlabel {
   display: block;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.3rem;
   font-weight: 400;
-  color: #1b1b32;
+  color: white;
   cursor: pointer;
 }
 
 .rselect {
   margin-right: 0.6rem;
   transform: scale(1.1);
-  accent-color: #0a0a23;
+  accent-color: white;
   vertical-align: middle;
 }
 
@@ -97,30 +93,26 @@ textarea.flabel {
   display: flex;
   align-items: center;
   font-weight: 400;
-  color: #060618;
+  color: white;
   cursor: pointer;
 }
 
 .checkenter {
   margin-right: 0.6rem;
   transform: scale(1.1);
-  accent-color: #1c3dce;
+  accent-color: white;
 }
 
 .submit-btn {
-  background-color: #0a0a23;
+  background-color: #35af62;
   color: white;
   font-weight: 700;
-  font-size: 1.2rem;
-  padding: 1rem 1.8rem;
-  border-radius: 10px;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
   cursor: pointer;
   width: 100%;
   letter-spacing: 0.5px;
-  border: 1px solid #0a0a23;
-  margin-top: 0.5rem;
+  border: 1px solid #35af62;
+  margin-top: 0.3rem;
 }
 
-.submit-btn:hover {
-  background-color: #2a2a5a;
-}
