@@ -7,14 +7,18 @@
 body {
   background-image: linear-gradient(rgb(58 58 158 / 80%), rgb(136 136 206 / 70%)), url("./assets/images/survey-form-background.jpeg");
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
 .form-contain {
+  display: grid;
   justify-content: center;
   align-items: center;
-  padding: 2rem 20rem 5rem;
+  padding: 5rem 1rem;
+}
+
+.title {
+  text-align: center;
 }
 
 h1 {
@@ -22,20 +26,19 @@ h1 {
   font-weight: 700;
   color: white;
   margin-bottom: 0.4rem;
-  padding-left: 3rem;
 }
 
 .secondtitle {
   font-size: 1.1rem;
   color: whitesmoke;
-  margin-bottom: 2.2rem;
+  margin-bottom: 0.5rem;
   font-style: italic;
-  padding-left: 2rem;
 }
 
 .survey {
   background-color: #1b1c31;
-  padding: 1.5rem;
+  padding: 1rem;
+  
 }
 
 .form-group {
