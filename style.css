@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgb(58 58 158 / 80%), rgb(136 136 206 / 70%)), url("./assets/images/survey-form-background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.form-contain {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0.4rem;
+}
+
+.secondtitle {
+  font-size: 1.1rem;
+  color: whitesmoke;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.survey {
+  background-color: #1b1c31;
+  padding: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.flabel {
+  display: block;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+}
+
+.fenter {
+  width: 100%;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.9rem;
+  border: 1.8px solid white;
+  background-color: white;
+}
+
+textarea.flabel {
+  min-height: 100px;
+}
+
+.rgroup {
+  margin-top: 0.3rem;
+}
+
+.rlabel {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.rselect {
+  margin-right: 0.6rem;
+  transform: scale(1.1);
+  accent-color: white;
+  vertical-align: middle;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.8rem;
+}
+
+.checlabel {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.checkenter {
+  margin-right: 0.6rem;
+  transform: scale(1.1);
+  accent-color: white;
+}
+
+.submit-btn {
+  background-color: #35af62;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  width: 100%;
+  letter-spacing: 0.5px;
+  border: 1px solid #35af62;
+  margin-top: 0.3rem;
+}
